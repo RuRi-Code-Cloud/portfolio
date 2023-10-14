@@ -8,6 +8,7 @@ a {
 }
 .bg-image {
   background-image: url(image/back.jpg);
+  background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -15,9 +16,14 @@ a {
 .container {
   text-align: center;
   background-color: rgba(0, 0, 0, 0.47);
-  border-radius: 60% / 100% 100% 0 0;
+  border-radius: 100% 100% 0 0;
   border: 3px solid rgb(238, 236, 236);
   max-width: 900px;
+  margin-bottom: 30px;
+}
+.containerOne {
+  background-color: rgba(249, 246, 246, 0.192);
+  margin: 60px;
 }
 .portfolioImage {
   margin-top: 50px;
@@ -32,4 +38,43 @@ a {
 }
 .name {
   font-size: 55px;
+}
+.section {
+  position: relative;
+}
+.section img {
+  position: absolute;
+  left: 50px;
+  margin-top: 50px;
+}
+.top {
+  animation-name: fade;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-direction: alternate;
+}
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.parograf {
+  color: rgb(238, 236, 236);
+  text-align: start;
+  padding: 20px;
+  line-height: 1.8;
+  letter-spacing: 1.5px;
+}
+.hello {
+  font-size: 30px;
 }

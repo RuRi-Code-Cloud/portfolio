@@ -78,3 +78,23 @@ a {
 .hello {
   font-size: 30px;
 }
+.hide {
+  display: none;
+}
+.newBorder:hover {
+  border: 1px solid rgb(238, 236, 236);
+}
+.addText:hover + .hide {
+  display: block;
+  color: rgb(238, 236, 236);
+}
+.contact {
+  padding: 25px;
+  color: rgb(238, 236, 236);
+  font-size: 25px;
+}
+.link {
+  background-color: rgba(249, 246, 246, 0.192);
+  border: 1px solid rgb(238, 236, 236);
+  margin: 10px;
+}

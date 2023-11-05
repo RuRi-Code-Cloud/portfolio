@@ -9,9 +9,9 @@ a {
 }
 
 footer {
+  bottom: 0;
   text-align: center;
   color: rgba(254, 254, 254, 0.564);
-  background-color: rgba(254, 254, 254, 0.165);
 }
 h3 {
   display: block;
@@ -197,4 +197,16 @@ h3 {
 .intro {
   letter-spacing: 1px;
   font-size: 20px;
+}
+.certifiates .first {
+  text-align: end;
+}
+.certifiates .second {
+  text-align: start;
+}
+.bottom p {
+  position: absolute;
+  bottom: -1px;
+  left: 28%;
+  margin: 0;
 }

@@ -4,10 +4,24 @@ body {
 }
 
 a {
-  color: rgba(136, 112, 138, 0.434);
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
+footer {
+  text-align: center;
+  color: rgba(254, 254, 254, 0.564);
+  background-color: rgba(254, 254, 254, 0.165);
+}
+h3 {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.398);
+  width: 600px;
+}
 .bg-image {
   background-image: url(image/back.jpg);
   background-attachment: fixed;
@@ -21,6 +35,7 @@ a {
   border-radius: 100% 100% 0 0;
   border: 3px solid rgba(238, 236, 236, 0);
   max-width: 900px;
+  margin-top: 30px;
 }
 
 .middle {
@@ -108,9 +123,9 @@ a {
 }
 
 .contact {
-  padding: 25px;
-  color: rgb(238, 236, 236);
-  font-size: 25px;
+  text-align: center;
+  padding: 30px;
+  margin-top: 90px;
 }
 .link {
   background-color: rgba(249, 246, 246, 0.192);
@@ -175,4 +190,11 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   width: 345px;
+}
+.email-footer {
+  color: white;
+}
+.intro {
+  letter-spacing: 1px;
+  font-size: 20px;
 }

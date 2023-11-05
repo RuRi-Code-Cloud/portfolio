@@ -239,6 +239,22 @@ h3 {
   background-color: rgba(255, 255, 255, 0.401);
   text-align: center;
 }
+.function-1 {
+  list-style: none;
+  margin: 5px;
+  padding: 10px;
+  max-width: 80px;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.401);
+  text-align: center;
+}
+.tools {
+  color: rgb(212, 212, 212);
+  text-align: center;
+}
 .list {
-  margin-top: 50px;
+  padding: 0px;
+}
+.add {
+  margin-left: 150px;
 }

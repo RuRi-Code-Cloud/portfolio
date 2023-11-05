@@ -138,58 +138,78 @@ h3 {
 .card-1 {
   background: url("image/dictionary.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  width: 80%;
-  height: 230px;
+  background-size: 400px 300px;
+  width: 400px;
+  height: 300px;
   border: 1px solid rgb(171, 170, 170);
 }
 .card-1:hover {
   background: url("image/dictionary-image.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  width: 345px;
+  background-size: 400px 300px;
+  width: 400px;
+  height: 300px;
 }
 .card-2 {
   background: url("image/world-clock.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  width: 80%;
-  height: 230px;
+  background-size: 400px 300px;
+  width: 400px;
+  height: 300px;
   border: 1px solid rgb(171, 170, 170);
 }
 .card-2:hover {
   background: url("image/clock.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  width: 345px;
+  background-size: 400px 300px;
+  width: 400px;
+  height: 300px;
 }
 .card-3 {
   background: url("image/react-weather.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  width: 80%;
-  height: 230px;
+  background-size: 400px 300px;
+  width: 400px;
+  height: 300px;
   border: 1px solid rgb(171, 170, 170);
 }
 .card-3:hover {
   background: url("image/weather.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  width: 345px;
+  background-size: 400px 300px;
+  width: 400px;
+  height: 300px;
 }
 .card-4 {
-  background: url("image/weather\ copy.png");
+  background: url("image/fil-director.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  width: 80%;
-  height: 230px;
+  background-size: 400px 300px;
+  width: 400px;
+  height: 300px;
   border: 1px solid rgb(171, 170, 170);
 }
 .card-4:hover {
+  background: url("image/film.png");
+  background-repeat: no-repeat;
+  background-size: 400px 300px;
+  width: 400px;
+  height: 300px;
+}
+.card-5 {
+  background: url("image/weather\ copy.png");
+  background-repeat: no-repeat;
+  background-size: 400px 300px;
+  width: 400px;
+  height: 300px;
+  border: 1px solid rgb(171, 170, 170);
+}
+
+.card-5:hover {
   background: url("image/cloud.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  width: 345px;
+  background-size: 400px 300px;
+  width: 400px;
+  height: 300px;
 }
 .email-footer {
   color: white;
@@ -209,4 +229,16 @@ h3 {
   bottom: -1px;
   left: 28%;
   margin: 0;
+}
+.function {
+  list-style: none;
+  margin: 5px;
+  padding: 10px;
+  max-width: 200px;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.401);
+  text-align: center;
+}
+.list {
+  margin-top: 50px;
 }

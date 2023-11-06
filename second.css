@@ -1,0 +1,78 @@
+@media only screen and (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+  .offcanvas {
+    background-color: rgba(12, 12, 12, 0.213);
+  }
+  .container {
+    border-radius: 10px 10px 0 0;
+    border: 3px solid rgba(238, 236, 236, 0);
+    margin: 0px;
+  }
+  .containetOne {
+    margin: 5px;
+  }
+  .email-footer {
+    margin: 10px;
+  }
+  .aboutMe {
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+  .portfolioImage,
+  .section img {
+    display: none;
+  }
+  .name {
+    margin-top: 60px;
+  }
+  .parograf {
+    text-align: center;
+    padding: 5px;
+  }
+  .function-1,
+  .function {
+    position: relative;
+    left: 60px;
+  }
+  .technologies {
+    padding: 20px;
+  }
+  .card-1,
+  .card-2,
+  .card-3,
+  .card-4,
+  .card-5 {
+    background-size: 300px 200px;
+    width: 300px;
+    height: 200px;
+  }
+  .function-list {
+    display: none;
+  }
+  .certifiates .first,
+  .certifiates .second {
+    text-align: center;
+  }
+  .one:hover,
+  .two:hover,
+  .three:hover {
+    box-shadow: none;
+  }
+  .same-shade:hover {
+    box-shadow: rgba(250, 244, 248, 0.4) 0px 5px,
+      rgba(219, 210, 216, 0.3) 0px 10px, rgba(221, 210, 217, 0.2) 0px 15px,
+      rgba(219, 212, 216, 0.1) 0px 20px, rgba(196, 191, 194, 0.05) 0px 25px;
+  }
+  .contact a img {
+    width: 120px;
+  }
+  .contact {
+    margin: 0;
+  }
+  .vertical {
+    overflow-y: scroll;
+  }
+}

@@ -9,7 +9,7 @@ a {
 }
 
 footer {
-  bottom: 0;
+  bottom: -0;
   text-align: center;
   color: rgba(254, 254, 254, 0.564);
 }
@@ -25,6 +25,10 @@ h3 {
 li {
   color: rgba(255, 255, 255, 0.822);
 }
+.navbar {
+  background-color: rgba(0, 0, 0, 0.298) !important;
+}
+
 .bg-image {
   background-image: url(image/back.jpg);
   background-attachment: fixed;
@@ -40,7 +44,14 @@ li {
   max-width: 900px;
   margin-top: 30px;
 }
-
+.aboutMe {
+  text-align: start;
+  padding-top: 200px;
+  padding-left: 100px;
+  color: rgb(238, 236, 236);
+  line-height: 1.9;
+  font-size: 20px;
+}
 .middle {
   display: block;
   margin: 0 auto;
@@ -54,14 +65,7 @@ li {
 .portfolioImage {
   margin-top: 50px;
 }
-.aboutMe {
-  text-align: start;
-  padding-top: 200px;
-  padding-left: 100px;
-  color: rgb(238, 236, 236);
-  line-height: 1.9;
-  font-size: 20px;
-}
+
 .name {
   font-size: 55px;
 }
@@ -124,11 +128,14 @@ li {
   color: rgb(238, 236, 236);
   background-image: url(image/dictionary.png);
 }
-
+.vertical {
+  overflow-y: hidden;
+}
 .contact {
   text-align: center;
   padding: 30px;
   margin-top: 90px;
+  margin-bottom: 200px;
 }
 .link {
   background-color: rgba(249, 246, 246, 0.192);
@@ -232,6 +239,9 @@ li {
 }
 .certifiates .second {
   text-align: start;
+}
+.certifiates {
+  margin-top: 70px;
 }
 .bottom p {
   position: absolute;

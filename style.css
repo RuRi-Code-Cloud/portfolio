@@ -22,6 +22,9 @@ h3 {
   background-color: rgba(0, 0, 0, 0.398);
   width: 600px;
 }
+li {
+  color: rgba(255, 255, 255, 0.822);
+}
 .bg-image {
   background-image: url(image/back.jpg);
   background-attachment: fixed;
@@ -213,6 +216,12 @@ h3 {
 }
 .email-footer {
   color: white;
+  background-color: rgba(249, 246, 246, 0.192);
+  text-align: center;
+  margin: 10px 250px;
+  padding: 20px;
+  border-radius: 40px;
+  font-size: 24px;
 }
 .intro {
   letter-spacing: 1px;
@@ -236,17 +245,15 @@ h3 {
   padding: 10px;
   max-width: 200px;
   border-radius: 30px;
-  background-color: rgba(255, 255, 255, 0.401);
+  background-color: rgba(249, 246, 246, 0.192);
   text-align: center;
 }
 .function-1 {
-  list-style: none;
   margin: 5px;
   padding: 10px;
-  max-width: 80px;
-  border-radius: 30px;
-  background-color: rgba(255, 255, 255, 0.401);
-  text-align: center;
+  max-width: 100px;
+  border-radius: 40px;
+  background-color: rgba(249, 246, 246, 0.192);
 }
 .tools {
   color: rgb(212, 212, 212);
@@ -256,5 +263,37 @@ h3 {
   padding: 0px;
 }
 .add {
-  margin-left: 150px;
+  margin-left: 100px;
+}
+.add-1 {
+  margin-left: 50px;
+}
+.position-1 {
+  display: block;
+  margin: 0 auto;
+}
+.image {
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.one:hover {
+  box-shadow: rgba(216, 213, 215, 0.4) -5px 5px,
+    rgba(234, 229, 233, 0.3) -10px 10px, rgba(238, 232, 236, 0.2) -15px 15px,
+    rgba(245, 237, 242, 0.1) -20px 20px, rgba(248, 240, 245, 0.05) -25px 25px;
+}
+.two:hover {
+  box-shadow: rgba(250, 244, 248, 0.4) 0px 5px,
+    rgba(219, 210, 216, 0.3) 0px 10px, rgba(221, 210, 217, 0.2) 0px 15px,
+    rgba(219, 212, 216, 0.1) 0px 20px, rgba(196, 191, 194, 0.05) 0px 25px;
+}
+.three:hover {
+  box-shadow: rgba(255, 254, 254, 0.4) 5px 5px,
+    rgba(244, 243, 243, 0.3) 10px 10px, rgba(255, 255, 255, 0.2) 15px 15px,
+    rgba(233, 233, 233, 0.1) 20px 20px, rgba(214, 214, 214, 0.05) 25px 25px;
+}
+.resume {
+  background-color: rgba(249, 246, 246, 0.192);
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: rgba(255, 255, 255, 0.769);
 }
